@@ -7,7 +7,7 @@ Status](https://travis-ci.org/tonyday567/data-haskell-examples.png)](https://tra
 data-haskell-examples
 ---------------------
 
-A set of recommended Haskell libraries for data analysis and example usage.
+A set of recommended Haskell libraries for data analysis together with example usage.
 
 usage
 -----
