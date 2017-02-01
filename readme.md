@@ -2,7 +2,7 @@ data-haskell-examples
 =====================
 
 [![Build
-Status](https://travis-ci.org/tonyday567/data-haskell-examples.png)](https://travis-ci.org/tonyday567/data-haskell-examples)
+Status](https://travis-ci.org/DataHaskell/data-haskell-examples.png)](https://travis-ci.org/DataHaskell/data-haskell-examples)
 
 data-haskell-examples
 ---------------------
