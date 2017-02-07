@@ -1,6 +1,29 @@
+{-# LANGUAGE NoImplicitPrelude #-}
 import Protolude
 import Data.Vector as V
 import Numeric.LinearAlgebra as H
+
+-- |
+-- >>> let x = V.fromList [0..5]
+-- >>> V.length x
+-- 6
+--
+-- >>> V.null x
+-- False
+
+-- | hmatrix examples
+-- >>> let x = (2><2) [0..3] :: Matrix Double
+-- >>> x
+-- (2><2)
+--  [ 0.0, 1.0
+--  , 2.0, 3.0 ]
+--
+-- Matrix multiplication
+-- >>> let y = fromLists [[0, 1], [2, 3]] :: Matrix Double
+-- >>> x H.<> y
+-- (2><2)
+--  [ 2.0,  3.0 
+--  , 6.0, 11.0 ]
 
 main :: IO ()
 main = do
