@@ -55,6 +55,7 @@ executable data-haskell-examples
               -with-rtsopts=-N
   hs-source-dirs: examples
   main-is: examples.hs
+  other-modules: LinearRegression1
   build-depends:
                 base >= 4.7 && < 5,
                 protolude,
